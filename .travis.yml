@@ -1,4 +1,2 @@
 language: objective-c
-env:
-  - XCWORKSPACE="3DRotationDemo/3DRotationDemo.xcodeproj"
-script: xcodebuild -project XCWORKSPACE -target 3DRotationDemo -sdk iphonesimulator ONLY_ACTIVE_ARCH=YES
+script: xcodebuild -project 3DRotationDemo/3DRotationDemo.xcodeproj -target 3DRotationDemo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
