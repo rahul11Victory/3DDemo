@@ -23,6 +23,7 @@
 		5CAE683014CD385F003D654A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAE682F14CD385F003D654A /* AppDelegate.m */; };
 		5CAE686B14CD3C7C003D654A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE686A14CD3C7C003D654A /* OpenGLES.framework */; };
 		5CAE686D14CD3C85003D654A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE686C14CD3C85003D654A /* QuartzCore.framework */; };
+		C3AE00EC1B00AAFF00828F28 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = C3AE00EB1B00AAFF00828F28 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		5CAE682F14CD385F003D654A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5CAE686A14CD3C7C003D654A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		5CAE686C14CD3C85003D654A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C3AE00EB1B00AAFF00828F28 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		5CAE681014CD385E003D654A = {
 			isa = PBXGroup;
 			children = (
+				C3AE00EB1B00AAFF00828F28 /* .travis.yml */,
 				5CAE686C14CD3C85003D654A /* QuartzCore.framework */,
 				5CAE686A14CD3C7C003D654A /* OpenGLES.framework */,
 				5CAE682514CD385F003D654A /* 3DRotationDemo */,
@@ -198,6 +201,7 @@
 				5C9BDCFB16CA2A1C0063A3D4 /* ThreeDObjectViewController.xib in Resources */,
 				5C9BDD0616CA414E0063A3D4 /* Cow.obj in Resources */,
 				5C9BDD0716CA414E0063A3D4 /* Tea Pot.obj in Resources */,
+				C3AE00EC1B00AAFF00828F28 /* .travis.yml in Resources */,
 				5C9BDD0816CA414E0063A3D4 /* Teddy.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
