@@ -1,7 +1,5 @@
 //
 //  ThreeDObjectViewController.m
-
-
 #import "ThreeDObjectViewController.h"
 
 @implementation ThreeDObjectViewController
