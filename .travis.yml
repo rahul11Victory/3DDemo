@@ -1,2 +1,2 @@
 language: objective-c
-script: xcodebuild -project 3DRotationDemo.xcodeproj -target 3DRotationDemo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script: xcodebuild -project 3DRotationDemo/3DRotationDemo.xcodeproj -target 3DRotationDemo -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
