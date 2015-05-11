@@ -235,8 +235,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -252,8 +252,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
+				PROVISIONING_PROFILE = "d48c0dc3-3131-43af-9804-738dd104cb28";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "d48c0dc3-3131-43af-9804-738dd104cb28";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(BUILT_PRODUCTS_DIR)/**";
@@ -265,8 +265,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -276,8 +276,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
+				PROVISIONING_PROFILE = "d48c0dc3-3131-43af-9804-738dd104cb28";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "d48c0dc3-3131-43af-9804-738dd104cb28";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(BUILT_PRODUCTS_DIR)/**";
@@ -289,8 +289,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Desktop/Copy\"",
@@ -303,8 +303,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
+				PROVISIONING_PROFILE = "d48c0dc3-3131-43af-9804-738dd104cb28";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "d48c0dc3-3131-43af-9804-738dd104cb28";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -314,8 +314,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Desktop/Copy\"",
@@ -328,8 +328,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
+				PROVISIONING_PROFILE = "d48c0dc3-3131-43af-9804-738dd104cb28";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "d48c0dc3-3131-43af-9804-738dd104cb28";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
