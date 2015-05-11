@@ -4,7 +4,6 @@
 
 #import "ThreeDObjectViewController.h"
 
-
 @implementation ThreeDObjectViewController
 @synthesize objFilePath;
 @synthesize activityIndicator;

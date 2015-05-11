@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>376ED404-6853-4943-B24B-DD07918D13E3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>3DRotationDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4CDAD51F169EFCD053D267E0673C15C287F873DA</key>
+		<string>https://github.com/rahul11Victory/3DDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>3DRotationDemo/3DRotationDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4CDAD51F169EFCD053D267E0673C15C287F873DA</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rahul11Victory/3DDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4CDAD51F169EFCD053D267E0673C15C287F873DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4CDAD51F169EFCD053D267E0673C15C287F873DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>3DDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
