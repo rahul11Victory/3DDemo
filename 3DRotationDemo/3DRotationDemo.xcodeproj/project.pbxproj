@@ -289,8 +289,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Desktop/Copy\"",
@@ -303,8 +303,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d48c0dc3-3131-43af-9804-738dd104cb28";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "d48c0dc3-3131-43af-9804-738dd104cb28";
+				PROVISIONING_PROFILE = "da932b61-7844-49ec-b564-a1250bf8428d";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "da932b61-7844-49ec-b564-a1250bf8428d";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -314,8 +314,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Desktop/Copy\"",
@@ -328,8 +328,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d48c0dc3-3131-43af-9804-738dd104cb28";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "d48c0dc3-3131-43af-9804-738dd104cb28";
+				PROVISIONING_PROFILE = "da932b61-7844-49ec-b564-a1250bf8428d";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "da932b61-7844-49ec-b564-a1250bf8428d";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
