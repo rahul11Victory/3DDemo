@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C9BDCED16CA1C270063A3D4 /* NinevehGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9BDCEC16CA1C270063A3D4 /* NinevehGL.framework */; };
+		5C9BDCF116CA1DAE0063A3D4 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BDCEF16CA1DAE0063A3D4 /* ListViewController.m */; };
+		5C9BDCF216CA1DAE0063A3D4 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9BDCF016CA1DAE0063A3D4 /* ListViewController.xib */; };
+		5C9BDCF616CA23D90063A3D4 /* ThreeDObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9BDCF416CA23010063A3D4 /* ThreeDObjectViewController.m */; };
+		5C9BDCFB16CA2A1C0063A3D4 /* ThreeDObjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9BDCF516CA23010063A3D4 /* ThreeDObjectViewController.xib */; };
+		5C9BDD0616CA414E0063A3D4 /* Cow.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5C9BDD0316CA414E0063A3D4 /* Cow.obj */; };
+		5C9BDD0716CA414E0063A3D4 /* Tea Pot.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5C9BDD0416CA414E0063A3D4 /* Tea Pot.obj */; };
+		5C9BDD0816CA414E0063A3D4 /* Teddy.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5C9BDD0516CA414E0063A3D4 /* Teddy.obj */; };
+		5CAE682014CD385F003D654A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE681F14CD385F003D654A /* UIKit.framework */; };
+		5CAE682214CD385F003D654A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE682114CD385F003D654A /* Foundation.framework */; };
+		5CAE682414CD385F003D654A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE682314CD385F003D654A /* CoreGraphics.framework */; };
+		5CAE682A14CD385F003D654A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CAE682814CD385F003D654A /* InfoPlist.strings */; };
+		5CAE682C14CD385F003D654A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAE682B14CD385F003D654A /* main.m */; };
+		5CAE683014CD385F003D654A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAE682F14CD385F003D654A /* AppDelegate.m */; };
+		5CAE686B14CD3C7C003D654A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE686A14CD3C7C003D654A /* OpenGLES.framework */; };
+		5CAE686D14CD3C85003D654A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAE686C14CD3C85003D654A /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C9BDCEC16CA1C270063A3D4 /* NinevehGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NinevehGL.framework; sourceTree = "<group>"; };
+		5C9BDCEE16CA1DAE0063A3D4 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		5C9BDCEF16CA1DAE0063A3D4 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		5C9BDCF016CA1DAE0063A3D4 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		5C9BDCF316CA23010063A3D4 /* ThreeDObjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeDObjectViewController.h; sourceTree = "<group>"; };
+		5C9BDCF416CA23010063A3D4 /* ThreeDObjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeDObjectViewController.m; sourceTree = "<group>"; };
+		5C9BDCF516CA23010063A3D4 /* ThreeDObjectViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeDObjectViewController.xib; sourceTree = "<group>"; };
+		5C9BDD0316CA414E0063A3D4 /* Cow.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cow.obj; sourceTree = "<group>"; };
+		5C9BDD0416CA414E0063A3D4 /* Tea Pot.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Tea Pot.obj"; sourceTree = "<group>"; };
+		5C9BDD0516CA414E0063A3D4 /* Teddy.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Teddy.obj; sourceTree = "<group>"; };
+		5CAE681B14CD385F003D654A /* 3DRotationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DRotationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CAE681F14CD385F003D654A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CAE682114CD385F003D654A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CAE682314CD385F003D654A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CAE682714CD385F003D654A /* 3DRotationDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "3DRotationDemo-Info.plist"; sourceTree = "<group>"; };
+		5CAE682914CD385F003D654A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CAE682B14CD385F003D654A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CAE682D14CD385F003D654A /* 3DRotationDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3DRotationDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5CAE682E14CD385F003D654A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CAE682F14CD385F003D654A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CAE686A14CD3C7C003D654A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5CAE686C14CD3C85003D654A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CAE681814CD385F003D654A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAE686D14CD3C85003D654A /* QuartzCore.framework in Frameworks */,
+				5CAE686B14CD3C7C003D654A /* OpenGLES.framework in Frameworks */,
+				5CAE682014CD385F003D654A /* UIKit.framework in Frameworks */,
+				5CAE682214CD385F003D654A /* Foundation.framework in Frameworks */,
+				5CAE682414CD385F003D654A /* CoreGraphics.framework in Frameworks */,
+				5C9BDCED16CA1C270063A3D4 /* NinevehGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C9BDD0116CA3DC50063A3D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C9BDD0216CA3DDB0063A3D4 /* Obj Files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5C9BDD0216CA3DDB0063A3D4 /* Obj Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C9BDD0316CA414E0063A3D4 /* Cow.obj */,
+				5C9BDD0416CA414E0063A3D4 /* Tea Pot.obj */,
+				5C9BDD0516CA414E0063A3D4 /* Teddy.obj */,
+			);
+			path = "Obj Files";
+			sourceTree = "<group>";
+		};
+		5CAE681014CD385E003D654A = {
+			isa = PBXGroup;
+			children = (
+				5CAE686C14CD3C85003D654A /* QuartzCore.framework */,
+				5CAE686A14CD3C7C003D654A /* OpenGLES.framework */,
+				5CAE682514CD385F003D654A /* 3DRotationDemo */,
+				5CAE681E14CD385F003D654A /* Frameworks */,
+				5CAE681C14CD385F003D654A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CAE681C14CD385F003D654A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CAE681B14CD385F003D654A /* 3DRotationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CAE681E14CD385F003D654A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C9BDCEC16CA1C270063A3D4 /* NinevehGL.framework */,
+				5CAE681F14CD385F003D654A /* UIKit.framework */,
+				5CAE682114CD385F003D654A /* Foundation.framework */,
+				5CAE682314CD385F003D654A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CAE682514CD385F003D654A /* 3DRotationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5C9BDD0116CA3DC50063A3D4 /* Resources */,
+				5C9BDCF316CA23010063A3D4 /* ThreeDObjectViewController.h */,
+				5C9BDCF416CA23010063A3D4 /* ThreeDObjectViewController.m */,
+				5C9BDCF516CA23010063A3D4 /* ThreeDObjectViewController.xib */,
+				5CAE682E14CD385F003D654A /* AppDelegate.h */,
+				5CAE682F14CD385F003D654A /* AppDelegate.m */,
+				5CAE682614CD385F003D654A /* Supporting Files */,
+				5C9BDCEE16CA1DAE0063A3D4 /* ListViewController.h */,
+				5C9BDCEF16CA1DAE0063A3D4 /* ListViewController.m */,
+				5C9BDCF016CA1DAE0063A3D4 /* ListViewController.xib */,
+			);
+			path = 3DRotationDemo;
+			sourceTree = "<group>";
+		};
+		5CAE682614CD385F003D654A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CAE682714CD385F003D654A /* 3DRotationDemo-Info.plist */,
+				5CAE682814CD385F003D654A /* InfoPlist.strings */,
+				5CAE682B14CD385F003D654A /* main.m */,
+				5CAE682D14CD385F003D654A /* 3DRotationDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CAE681A14CD385F003D654A /* 3DRotationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CAE683914CD385F003D654A /* Build configuration list for PBXNativeTarget "3DRotationDemo" */;
+			buildPhases = (
+				5CAE681714CD385F003D654A /* Sources */,
+				5CAE681814CD385F003D654A /* Frameworks */,
+				5CAE681914CD385F003D654A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DRotationDemo;
+			productName = 3DRotationDemo;
+			productReference = 5CAE681B14CD385F003D654A /* 3DRotationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CAE681214CD385E003D654A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5CAE681514CD385E003D654A /* Build configuration list for PBXProject "3DRotationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CAE681014CD385E003D654A;
+			productRefGroup = 5CAE681C14CD385F003D654A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CAE681A14CD385F003D654A /* 3DRotationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CAE681914CD385F003D654A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAE682A14CD385F003D654A /* InfoPlist.strings in Resources */,
+				5C9BDCF216CA1DAE0063A3D4 /* ListViewController.xib in Resources */,
+				5C9BDCFB16CA2A1C0063A3D4 /* ThreeDObjectViewController.xib in Resources */,
+				5C9BDD0616CA414E0063A3D4 /* Cow.obj in Resources */,
+				5C9BDD0716CA414E0063A3D4 /* Tea Pot.obj in Resources */,
+				5C9BDD0816CA414E0063A3D4 /* Teddy.obj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CAE681714CD385F003D654A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CAE682C14CD385F003D654A /* main.m in Sources */,
+				5CAE683014CD385F003D654A /* AppDelegate.m in Sources */,
+				5C9BDCF616CA23D90063A3D4 /* ThreeDObjectViewController.m in Sources */,
+				5C9BDCF116CA1DAE0063A3D4 /* ListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5CAE682814CD385F003D654A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CAE682914CD385F003D654A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CAE683714CD385F003D654A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Debug;
+		};
+		5CAE683814CD385F003D654A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "$(BUILT_PRODUCTS_DIR)/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CAE683A14CD385F003D654A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Desktop/Copy\"",
+					"\"/Rahul's Stuff(Please Dont Delete it)/Projects/DMG/Latest Ninevehgl\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "3DRotationDemo/3DRotationDemo-Prefix.pch";
+				INFOPLIST_FILE = "3DRotationDemo/3DRotationDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CAE683B14CD385F003D654A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Desktop/Copy\"",
+					"\"/Rahul's Stuff(Please Dont Delete it)/Projects/DMG/Latest Ninevehgl\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "3DRotationDemo/3DRotationDemo-Prefix.pch";
+				INFOPLIST_FILE = "3DRotationDemo/3DRotationDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D28C9B1-6928-4731-80FC-1A5C9BDC36AC";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CAE681514CD385E003D654A /* Build configuration list for PBXProject "3DRotationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAE683714CD385F003D654A /* Debug */,
+				5CAE683814CD385F003D654A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CAE683914CD385F003D654A /* Build configuration list for PBXNativeTarget "3DRotationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CAE683A14CD385F003D654A /* Debug */,
+				5CAE683B14CD385F003D654A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CAE681214CD385E003D654A /* Project object */;
+}
