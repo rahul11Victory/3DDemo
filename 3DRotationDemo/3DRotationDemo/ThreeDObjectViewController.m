@@ -16,6 +16,7 @@
 	[camera release];
     [activityIndicator release];
     [contentLabel release];
+    
 	
     [super dealloc];
 }
