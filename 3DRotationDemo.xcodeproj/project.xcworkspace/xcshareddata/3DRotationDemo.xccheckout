@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>376ED404-6853-4943-B24B-DD07918D13E3</string>
+	<string>57652DCB-7D3F-4D97-A069-CDE108C294CF</string>
 	<key>IDESourceControlProjectName</key>
 	<string>3DRotationDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/rahul11Victory/3DDemo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>3DRotationDemo/3DRotationDemo.xcodeproj</string>
+	<string>3DRotationDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>4CDAD51F169EFCD053D267E0673C15C287F873DA</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/rahul11Victory/3DDemo.git</string>
