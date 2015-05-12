@@ -291,12 +291,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../Desktop/Copy\"",
-					"\"/Rahul's Stuff(Please Dont Delete it)/Projects/DMG/Latest Ninevehgl\"",
-					"\"$(SRCROOT)\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "3DRotationDemo/3DRotationDemo-Prefix.pch";
 				INFOPLIST_FILE = "3DRotationDemo/3DRotationDemo-Info.plist";
@@ -316,12 +311,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../Desktop/Copy\"",
-					"\"/Rahul's Stuff(Please Dont Delete it)/Projects/DMG/Latest Ninevehgl\"",
-					"\"$(SRCROOT)\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "3DRotationDemo/3DRotationDemo-Prefix.pch";
 				INFOPLIST_FILE = "3DRotationDemo/3DRotationDemo-Info.plist";
