@@ -1,2 +1,4 @@
 language: objective-c
-script:  xcodebuild clean build -scheme 3DRotationDemoForBuild  -destination 'platform=iOS Simulator,name=iPad,OS=8.0'
+
+script:
+- xcodebuild build -scheme 3DRotationDemoForBuild -destination 'platform=iOS Simulator,name=iPad,OS=8.0'
