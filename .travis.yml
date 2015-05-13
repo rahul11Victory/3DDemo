@@ -8,7 +8,8 @@ before_script:
 - ./scripts/add-key.sh
 #- ./scripts/update-bundle.sh
 script:
-- xctool -workspace 3DRotationDemo.xcworkspace -scheme 3DRotationDemoForBuild -sdk iphoneos -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
+#- xctool -workspace 3DRotationDemo.xcworkspace -scheme 3DRotationDemoForBuild -sdk iphoneos -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
+- xcodebuild -target 3DRotationDemo" -sdk iphoneos -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
 after_success:
 - ./scripts/sign-and-upload.sh
 after_script:
