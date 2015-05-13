@@ -1,4 +1,23 @@
 language: objective-c
-
+#script:
+#- xcodebuild build -scheme 3DRotationDemoForBuild -destination 'platform=iOS Simulator,name=iPad 2,OS=8.1' ONLY_ACTIVE_ARCH=NO
+before_script:
+- openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/profile/3DDemo_Ad_Hoc.mobileprovision.enc -d -a -out scripts/profile/3DDemo_Ad_Hoc.mobileprovision
+- openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/certs/dist.cer.enc -d -a -out scripts/certs/dist.cer
+- openssl aes-256-cbc -k "$ENCRYPTION_SECRET" -in scripts/certs/dist.p12.enc -d -a -out scripts/certs/dist.p12
+- ./scripts/add-key.sh
+- ./scripts/update-bundle.sh
 script:
-- xcodebuild build -scheme 3DRotationDemoForBuild -destination 'platform=iOS Simulator,name=iPad 2,OS=8.1' ONLY_ACTIVE_ARCH=NO
+- xctool -workspace 3DRotationDemo.xcworkspace -scheme 3DRotationDemoForBuild -sdk iphoneos -configuration Release OBJROOT=$PWD/build SYMROOT=$PWD/build ONLY_ACTIVE_ARCH=NO
+after_success:
+- ./scripts/sign-and-upload.sh
+after_script:
+- ./scripts/remove-key.sh
+
+env:
+  global:
+  - secure: UjUXzjuK6FG0Ad4lqbADb+fSeSDuej/NXX65BO9O/oxuFj7oPBUtnf+AzBLTWyufsvP4Hj0IPufj1cEDNnySS5lBIhRWojJVNmUuZi3bH51V/AA4Io8XZfY3L2uWEKKO1dum4ImvdjVBjY4Xzcih/sY/4gA4dTdRVY3tXe7S0v8XiiuXzA9aqLUYJ5aaZLCMYGSXeA0nYnmuTmAKcEbGfQl4UmUPGZh2SxZcewrkoKLJwKjN9saE0IMNfnUcvTrht2opPm+ccwwTobLcVYMf51jd+ykPEAFGpBxdz7fR+iIQMFG7ZaCdXP30u43B/hf740+eKa851QiJ0x6GIK4lWepShy5G5Brg4GMEiknO12vULGMYAiBTW09H+PTjFEpfXAKiV92Gl7cI9v+orH7vn2LPjXyMxx1lmY7kROeNjXj34ZZ/KyNPQlyykYivkKv08DBB7wMOAxa6I+tpUWGFOIC3XcN1S3oOnhTYhT7PC0q9cm3ImKK9nVfYCOsbQqw4bgPjKyee6tfSffGoaWrjmyOnOiF3dfEh4p/x288sDQAL/qio7nU/WI7UG9Wr4JogwUs9y+sfLa7Iq8pkhR1ZCQmfBBpTrEcc83hPWKX3Bmtgp2c17Y9yToZ6hLYw3rirGL9/f4a20xOCvgQTOBLj1Emta0f3Nua/OIPbA/3uYVU=
+  - secure: NX3y9IGOGN+l7q8eJ3EjXUwfNVHaefGExpNptmEICc8uYNJB5w6fg4efVgfHEooeInsQZGnTnHRvC4tlS9Q87U4IPB09qdepVHFszwXtFz/CTUFlDg4E/fEPBEPwkaLFEb1SYG9WUQVeG8ZISTVB9e+aKJXsnVsuXQztFv3rbhLwAuHitVJveB/MU60CuzAClSvwM9M0RffywHTpA3B5thSEbiQnTDoKZTh8SUj+n6AjJVyrhFrki7ahIzrRp4PnmzZit0NZbaSDVDmSrskBNg2bouOlUEZHGW37eCMP2E0kYsSAvx2cPhdGRLg5fsI0Hc26BFzCVQa6kB0RxGDW9cO34Pmij+e1ubDIy5yQ+9a4GccJAvRfO7PQdqIZMyS6F87jJfCcCrI62NKDiWrfzdQ3C+38/z6iN/9p4reQDJIM8qGf1bYByLvNZoVKun/GlfEXZCk6Bj4j9zpqtQzvLObcXTsOVYPIlPGXKxwekEBkzZ5zdVwtL2NJc0DHCFhC0QKJwZLbC3UVE7umrYBPUntPrIC1Am25aLCuD7iokp8e8KFslewJkaI3w/0G2bTyh2wbgBMg1jdfkerjhDkSRrsmnCkSvZdpDEqxS1sz2XFXPV75Mn+oi2RlBTupWBq4gPlNAx12vSOKF3J2K5czmh+LHXSggzTOEaV+b7m0xYE=
+  - APP_NAME="3DRotationDemo"
+  - 'DEVELOPER_NAME="iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)"'
+  - PROFILE_NAME="3DDemo_Ad_Hoc"
