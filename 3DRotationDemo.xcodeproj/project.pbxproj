@@ -325,8 +325,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "3DRotationDemo/3DRotationDemo-Prefix.pch";
@@ -334,8 +334,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d48c0dc3-3131-43af-9804-738dd104cb28";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "d48c0dc3-3131-43af-9804-738dd104cb28";
+				PROVISIONING_PROFILE = "503cd024-15b4-45eb-8cf8-99323d0c3f1c";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "503cd024-15b4-45eb-8cf8-99323d0c3f1c";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
@@ -345,8 +345,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology (83344Q8AJA)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
 				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "3DRotationDemo/3DRotationDemo-Prefix.pch";
@@ -354,28 +354,29 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d48c0dc3-3131-43af-9804-738dd104cb28";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "d48c0dc3-3131-43af-9804-738dd104cb28";
+				PROVISIONING_PROFILE = "503cd024-15b4-45eb-8cf8-99323d0c3f1c";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "503cd024-15b4-45eb-8cf8-99323d0c3f1c";
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		C34E07B81B3C0359003BB242 /* Debug */ = {
+		C345A6051B415A2100310A29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "503cd024-15b4-45eb-8cf8-99323d0c3f1c";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = OCLint;
 			};
 			name = Debug;
 		};
-		C34E07B91B3C0359003BB242 /* Release */ = {
+		C345A6061B415A2100310A29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Extentia Information Technology Private Limited (LH38KVY7ML)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "503cd024-15b4-45eb-8cf8-99323d0c3f1c";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				PRODUCT_NAME = OCLint;
 			};
 			name = Release;
 		};
@@ -403,8 +404,8 @@
 		C34E07BA1B3C0359003BB242 /* Build configuration list for PBXAggregateTarget "OCLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C34E07B81B3C0359003BB242 /* Debug */,
-				C34E07B91B3C0359003BB242 /* Release */,
+				C345A6051B415A2100310A29 /* Debug */,
+				C345A6061B415A2100310A29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
